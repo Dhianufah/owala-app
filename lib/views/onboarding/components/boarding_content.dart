@@ -27,9 +27,9 @@ class OnboardingContent extends StatelessWidget {
         SizedBox(height: 15),
         Text(
           text,
-          textAlign: TextAlign.center,
+          textAlign: TextAlign.center,   
           style: TextStyle(
-            color: Colors.amber
+            color: textColor
           ),
         )
       ],
